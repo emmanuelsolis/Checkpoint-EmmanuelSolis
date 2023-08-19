@@ -1,0 +1,261 @@
+    1  git config --global user.name "Emmanuel Solis"
+    2  git config --global user.email "emma.ruso@outlook.com"
+    3  exit
+    4  npm create vite todo-list
+    5  ls
+    6  cd todo-list/
+    7  code .
+    8  find /Desktop -iname auditoria* -print
+    9  ls
+   10  find /Desktop/ -iname auditoria* -print
+   11  find / -type d -name "auditoria" -print
+   12  find / name "informes" -print
+   13  find /Desktop name "informes" -print
+   14  find /Desktop/ name "informes" -print
+   15  find /Desktop/ -name "informes" -print
+   16  find /desktop -name "informes" -print
+   17  find . -name "informes" -print
+   18  sudo find / -type -name "emmar" -print
+   19  find / -type -name "emmar" -print
+   20  find / -type d -name "emmar" -print
+   21  find . -name informe -print
+   22  find . -name informes -print
+   23  find . -name "informes" -print
+   24  ls
+   25  pwd
+   26  cd Desktop/
+   27  ls
+   28  find . -type d -name "auditorias" -print
+   29  find -iname '*auditoria*' -print
+   30  find -iname '*documents*' -print
+   31  ls
+   32  pwd
+   33  pwd
+   34  /
+   35  cd /
+   36  pwd
+   37  ls
+   38  cd c/Users/emmar/OneDrive/Escritorio/
+   39  ls
+   40  cd Nueva\ carpeta/
+   41  ls
+   42  ls -l
+   43  l -lh
+   44  ls -lh
+   45  cd ..
+   46  ls
+   47  ls -l
+   48  ls - lh
+   49  ls -lh
+   50  lsls -a
+   51  ls -a
+   52  ls -R
+   53  mkdir DH
+   54  ls
+   55  cd DH/
+   56  mkdir Peliculas
+   57  cd Peliculas/
+   58   mkdir Infantiles Accion Terror Comedia Romanticas
+   59  ls
+   60  cd Infantiles/
+   61  touch Intensamente "El juego del miedo" "Rapido y furioso" Titanic
+   62  ls
+   63  cd ..
+   64  cd Accion/
+   65  touch "Smooth criminal" "Diario de una pasion" "El hexorcista" Cars
+   66  ls
+   67  cd..
+   68  cd ..
+   69  ls
+   70  cd p
+   71  cd Terror/
+   72  touch "La dama y el bagavundo" "Yo antes de ti" "Que paso ayer" "We will rockyou"
+   73  ls
+   74  cd ..
+   75  ls
+   76  cd Comedia/
+   77  touch Madagaskar "Orgullo y prejuicio" IT "Mision Imposible"
+   78  cd ..
+   79  ls
+   80  cd Romanticas/
+   81  touch Pocahontas Anabelle "Los Vengadores" "La mascara" 
+   82  cd ..
+   83  ls -R
+   84  git remote add origin https://github.com/emmanuelsolis/repo-clase.git
+   85  git remote
+   86  git remote -v
+   87  history
+   88  mv Ecommerce/ ejemplo
+   89  touch index.html
+   90  touch app.js
+   91  git init 
+   92  git add .
+   93  gir status
+   94  git status
+   95  git rm --cached .
+   96  git status
+   97  git rm --cached .
+   98  git restore
+   99  git reset HEAD
+  100  git status
+  101  git reset HEAD
+  102  git status
+  103  git rm --cached Projects
+  104  git rm --cached ../Projects
+  105  cd ..
+  106  git rm --cached ../Projects
+  107  cd Projects
+  108  git status
+  109  ls -la
+  110  git rm -rf .git
+  111  rm -rf .git
+  112  git status
+  113  cd ejemplo/
+  114  ls
+  115  ls
+  116  cd ..
+  117  ls
+  118  rm index.html app.js
+  119  ls
+  120  cd ejemplo/
+  121  touch app.js
+  122  touch index.html
+  123  ls
+  124  git init 
+  125  git add .
+  126  git commit -m "mi primer commit"
+  127  git log
+  128  git branch rama2
+  129  git branch
+  130  code .
+  131  ls -la
+  132  cat app.js 
+  133  git status
+  134  git remote add origin https://github.com/emmanuelsolis/repo-clase.git
+  135  git remote -v
+  136  git log
+  137  git log
+  138  ls
+  139  cd ..
+  140  ls
+  141  rm -rf repo
+  142  rm -rf repo/
+  143  rm -rt repo/
+  144  rm --help
+  145  rm -d
+  146  rm -d repo/
+  147  cd repo/
+  148  rm -cached app.js
+  149  rm --cached app.js
+  150  git rm --cached app.js
+  151  git status
+  152  cd ..
+  153  rm -rf repo
+  154  ls
+  155  rm /s repo
+  156  rmdir /s repo
+  157  ls
+  158  rd /s repo
+  159  rm -rf repo
+  160  ls
+  161  cd repo/
+  162  ls
+  163  ls -la
+  164  ls
+  165  ls
+  166  cd ..
+  167  ls
+  168  rm repo
+  169  rmdir /s repo
+  170  ls
+  171  ls
+  172  rmdir repo
+  173  rmdir  -r repo
+  174  rmdir --help
+  175  git clone https://github.com/yayo31/IntroInformaticaClase4.git
+  176  cd IntroInformaticaClase4/
+  177  git remote -v
+  178  git pull
+  179  code .
+  180  git remote -v
+  181  git history
+  182  history
+  183  git init
+  184  echo "# Checkpoint-EmmanuelSolis" >> README.md
+  185  git add README.md 
+  186  mkdir main.js index.html
+  187  git remote add origin https://github.com/emmanuelsolis/Checkpoint-EmmanuelSolis.git
+  188  git status
+  189  git remote -v
+  190  git add . ; git commit -m "commit 01 de EmmanuelSolis"; git push -u origin main
+  191  git branch feature
+  192  git branch 
+  193  git checkout -b feature
+  194  git checkout  feature
+  195  mkadir Hardware Software SeguridadInformatica
+  196  ls
+  197  mkdir Hardware Software SeguridadInformatica
+  198  ls
+  199  for dir in .; do touch "$dir/resumen.txt" done;  q
+  200  for dir in ./; do touch "$dir/resumen.txt" done;  q; for dir in ./; do touch "$dir/resumen.txt" done;  
+  201  ls
+  202  ls -R
+  203  touch resumen.txt 
+  204  find . -type d -exec cp ./Hardware/ ./SeguridadInformatica/ ./Software/ {} \;
+  205  ls -R
+  206  find . -type d -exec cp ./Hardware/resumen.txt ./SeguridadInformatica/resumen.txt ./Software/resument.txt {} \;
+  207  ls -R
+  208  cp resumen.txt ./Hardware/ ./SeguridadInformatica/ ./Software/
+  209  ls -R
+  210  cp resumen.txt  ./SeguridadInformatica/ 
+  211  mv resumen.txt ./Hardware/
+  212  ls -R
+  213  git branch
+  214  git add .; git commit -m "commit 02 de EmmanuelSolis";
+  215  git push origin feature
+  216  git checkout main
+  217  ls
+  218  mv main.js resumenHardware.txt
+  219  mv index.html resumenSoftware.txt
+  220  ls
+  221  cat resumenSoftware.txt/
+  222  vim resumenSoftware.txt/
+  223  vim resumenSoftware.txt/
+  224  cat resumenSoftware.txt/
+  225  ls
+  226  cd resumenSoftware.txt/
+  227  history
+  228  git init
+  229  git remote add origin https://github.com/emmanuelsolis/Checkpoint-EmmanuelSolis.git
+  230  git remote -v
+  231  git touch main.js index.html
+  232  touch main.js index.html
+  233  ls
+  234  git add .
+  235  git status
+  236  git commit -m"commit 01 de EmmanuelSolis"
+  237  git push origin main
+  238  git log
+  239  git checkout -b feature
+  240  mkdir Hardware Software SeguridadInformatica
+  241  touch ./Hardware/resumen.txt ./Software/resumen.txt ./SeguridadInformatica/resumen.txt
+  242  ls -R
+  243  git add; git commit -m"commmit 02 de EmmanuelSolis";
+  244  git add .
+  245  git commit -m"commit 02 de EmmanuelSolis"
+  246  git push origin feature
+  247  git checkout main
+  248  mv main.js resumenHardware.txt
+  249  mv index.html resumenSoftware.txt
+  250  ls
+  251  vim resumenSoftware.txt 
+  252  cat resumenSoftware.txt 
+  253  vim resumenHardware.txt 
+  254  car resumenHardware.txt 
+  255  cat resumenHardware.txt 
+  256  ls
+  257  touch comandos.txt 
+  258  history
+  259  vim comandos.txt 
+  260  vim comandos.txt 
+  261  history > comandos.txt 
